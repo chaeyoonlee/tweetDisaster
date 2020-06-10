@@ -15,8 +15,8 @@ from nltk.stem import PorterStemmer
 
 max_len = 50 # 최대 단어 수가 54였음 -> text당 사용할 단어 수
 max_words = 10000 # 훈련시 사용할 단어 수 ->  최빈 10000개
-data_ratio_train = 0.8
-data_ratio_val = 0.1
+data_ratio_train = 0.9
+data_ratio_val = 0.0
 data_ratio_test = 0.1
 embedding_dim = 50
 
